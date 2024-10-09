@@ -1,0 +1,49 @@
+2024-10-08 16:05:34,865 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 27 - views - post - ERROR - column item_master.pk_bint_id does not exist
+LINE 1: ...05:34.863993+00:00'::timestamptz, true) RETURNING "item_mast...
+                                                             ^
+ - user_id:None
+2024-10-08 16:06:57,877 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 28 - views - post - ERROR - null value in column "vchr_item_code" violates not-null constraint
+DETAIL:  Failing row contains (1, null, null, null, null, null, 2024-10-08 16:06:57.871939+00, 2024-10-08 16:06:57.872075+00, t).
+ - user_id:None
+2024-10-08 16:11:23,366 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 16 - views - post - ERROR - JSON parse error - Expecting value: line 1 column 1 (char 0) - user_id:None
+2024-10-08 16:16:40,443 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 17 - views - post - ERROR - name 'status' is not defined - user_id:None
+2024-10-08 16:16:41,716 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 17 - views - post - ERROR - JSON parse error - Expecting value: line 1 column 1 (char 0) - user_id:None
+2024-10-08 16:17:51,501 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 47 - views - post - ERROR - name 'status' is not defined - user_id:None
+2024-10-08 16:23:48,853 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 45 - views - post - ERROR -  - user_id:None
+2024-10-08 16:27:48,888 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 45 - views - post - ERROR - null value in column "dat_updated" violates not-null constraint
+DETAIL:  Failing row contains (9, ITEM001, Sample Item, This is a sample item for testing purposes., 99.99, 50, 2024-10-08 16:27:48.887436+00, null, t).
+ - user_id:None
+2024-10-08 16:28:41,718 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 45 - views - post - ERROR - null value in column "dat_updated" violates not-null constraint
+DETAIL:  Failing row contains (10, ITEM001, Sample Item, This is a sample item for testing purposes., 99.99, 50, 2024-10-08 16:28:41.716663+00, null, t).
+ - user_id:None
+2024-10-08 16:33:49,796 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 45 - views - post - ERROR - column "fk_created_id_id" of relation "item_master" does not exist
+LINE 1: ...ion", "dbl_price", "int_quantity", "dat_created", "fk_create...
+                                                             ^
+ - user_id:None
+2024-10-08 16:42:57,372 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 45 - views - post - ERROR - null value in column "fk_created_id" violates not-null constraint
+DETAIL:  Failing row contains (1, ITEM001, Sample Item, This is a sample item for testing purposes., 99.99, 50, 2024-10-08 16:42:57.370996+00, null, t, null).
+ - user_id:None
+2024-10-08 16:43:27,536 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 46 - views - post - ERROR - null value in column "fk_created_id" violates not-null constraint
+DETAIL:  Failing row contains (2, ITEM001, Sample Item, This is a sample item for testing purposes., 99.99, 50, 2024-10-08 16:43:27.534852+00, null, t, null).
+ - user_id:None
+2024-10-08 16:43:39,644 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 46 - views - post - ERROR - null value in column "fk_created_id" violates not-null constraint
+DETAIL:  Failing row contains (3, ITEM001, Sample Item, This is a sample item for testing purposes., 99.99, 50, 2024-10-08 16:43:39.642854+00, null, t, null).
+ - user_id:None
+2024-10-08 16:44:40,082 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 18 - views - post - ERROR - JSON parse error - Expecting value: line 1 column 28 (char 27) - user_id:None
+2024-10-08 16:52:07,123 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 60 - views - get - ERROR - name 'serializer' is not defined - user_id:None
+2024-10-08 16:52:38,652 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 60 - views - get - ERROR - name 'serializer' is not defined - user_id:None
+2024-10-08 16:53:13,297 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 60 - views - get - ERROR - name 'serializer' is not defined - user_id:None
+2024-10-08 16:53:15,655 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 60 - views - get - ERROR - name 'serializer' is not defined - user_id:None
+2024-10-08 16:54:07,974 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 60 - views - get - ERROR - name 'serializer' is not defined - user_id:None
+2024-10-08 16:55:20,948 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 60 - views - get - ERROR - name 'serializer' is not defined - user_id:None
+2024-10-08 16:56:45,647 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 77 - views - get - ERROR - name 'status' is not defined - user_id:None
+2024-10-08 17:00:56,772 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 68 - views - get - ERROR - name 'status' is not defined - user_id:None
+2024-10-08 17:24:54,066 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 108 - views - put - ERROR - type object 'ItemMaster' has no attribute 'bjects' - user_id:None
+2024-10-08 17:27:11,773 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 124 - views - put - ERROR - Got AttributeError when attempting to get a value for field `vchr_item_code` on serializer `ItemMasterSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `int` instance.
+Original exception text was: 'int' object has no attribute 'vchr_item_code'. - user_id:None
+2024-10-09 12:53:46,203 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 137 - views - put - ERROR - name 'cache_key' is not defined - user_id:None
+2024-10-09 13:11:37,823 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 108 - views - put - ERROR - JSON parse error - Expecting property name enclosed in double quotes: line 1 column 2 (char 1) - user_id:1
+2024-10-09 13:12:10,731 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 108 - views - put - ERROR - JSON parse error - Expecting property name enclosed in double quotes: line 1 column 2 (char 1) - user_id:1
+2024-10-09 13:13:13,736 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 121 - views - put - ERROR - ['“” value must be a decimal number.'] - user_id:1
+2024-10-09 13:13:32,207 - /home/mathew/prjt_9_10_24/SIMS/crud/views.py - line no: 121 - views - put - ERROR - Field 'int_quantity' expected a number but got ''. - user_id:1
