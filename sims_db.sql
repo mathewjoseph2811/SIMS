@@ -382,6 +382,7 @@ COPY public.auth_permission (id, name, content_type_id, codename) FROM stdin;
 --
 
 COPY public.auth_user (id, password, last_login, is_superuser, username, first_name, last_name, email, is_staff, is_active, date_joined) FROM stdin;
+1	pbkdf2_sha256$600000$NC8JrbJG91h3gDonmrEIh0$qQHl3fl7MrFDkIRZ9n57yakW9zeKv60x1Cek36c0Kzg=	\N	t	admin				t	t	2024-10-09 21:43:00.857742+05:30
 \.
 
 
@@ -464,6 +465,8 @@ COPY public.django_session (session_key, session_data, expire_date) FROM stdin;
 --
 
 COPY public.item_master (id, vchr_item_code, vchr_item_name, txt_description, dbl_price, int_quantity, dat_created, dat_updated, bln_active, fk_created_id) FROM stdin;
+1	t	g	test	3.00	1	2024-10-09 21:46:03.325636+05:30	\N	t	1
+2	ITEM1	test_item	test	3.00	1	2024-10-09 21:46:32.63814+05:30	\N	t	1
 \.
 
 
@@ -499,7 +502,7 @@ SELECT pg_catalog.setval('public.auth_user_groups_id_seq', 1, false);
 -- Name: auth_user_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.auth_user_id_seq', 1, false);
+SELECT pg_catalog.setval('public.auth_user_id_seq', 1, true);
 
 
 --
@@ -534,7 +537,7 @@ SELECT pg_catalog.setval('public.django_migrations_id_seq', 19, true);
 -- Name: item_master_id_seq; Type: SEQUENCE SET; Schema: public; Owner: admin
 --
 
-SELECT pg_catalog.setval('public.item_master_id_seq', 1, false);
+SELECT pg_catalog.setval('public.item_master_id_seq', 2, true);
 
 
 --
